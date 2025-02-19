@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hello-Form</title>
+</head>
+<body>
+<!--/request-param: RequestParamServlet 에서 urlPattern 을
+    "/requestParam"으로 했기 때문에 Form에 담긴 정보를 RequestParamServlet 이 받는다.-->
+<form action="/request-param" method="post">
+  username: <input type="text" name="username" />
+  age: <input type="text" name="age" />
+  <button type="submit">전송</button>
+</form>
+</body>
+</html>
